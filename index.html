@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html class="noise" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+	<meta name="Author" content=""/>
+<!--	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>-->
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.noise {  
+  background-image: url(data:image/png;base64,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);
+  background-color: #dfcd87;
+}
+	</style>
+
+</head>
+<body>
+<!--password section-->
+<!--
+<div class="entrance" style="text-align:center;">
+<input style="padding:10px; margin-top: 12px; font-size:35px;" type="button" value="Family Tree Entrance" onClick="passWord()">
+</div>
+-->
+
+<!--
+We will create a family tree using just CSS(3)
+The markup will be simple nested lists
+-->
+
+
+<div class="tree minwidth">
+	<ul>
+		<li>
+			<a  href="#"><h1>Maria <span>Bonot</span> &amp; Jose <span>Relunia</span></h1>
+				<div class="info">
+					<div>Married: May 3, 1947</div>
+					<div class="image-container">
+						<img src="img/lola_lolo.JPG" alt="lola">
+						<div>Maria born: Jan 6, 1926</div>
+						<br>
+					</div>
+					<div class="image-container">
+						<img src="img/lola_family.JPG" alt="lola family">
+						<div>Jose born: June 4, 1927</div>
+						<div>died: December 25, 2002</div>
+					</div>
+				</div>
+			</a>
+			<ul>
+				<li>
+					<a href="#">Jose Jr <span>Relunia</span> and Beatriz <span>Francia</span>
+						<div class="info">
+							<div>Married:June 8, 1975</div>
+							<div class="image-container">
+								<img src="img/june/thumb/june_thumb.JPG" alt="June">
+								<div>Born: March 20, 1948</div>
+							</div>
+							<div class="image-container">
+								<img src="img/june/thumb/betty_thumb.JPG" alt="Betty">
+								<div>Born: October 21, 1948</div>
+							</div>
+							<br>
+							<img src="img/june/june_family.JPG" alt="June family">
+						</div>
+					</a>
+					<ul>
+						<li>
+							<a href="#">Bernadette <span>Relunia</span>&amp; Paul <span>Terry</span>
+								<div class="info">
+									<div class="image-container">
+										<img src="img/june/thumb/bernadette_thumb.JPG" alt="Joy">
+										<div>Born: March 3, 1976</div>
+									</div>
+									<div class="image-container">
+										<img src="img/june/thumb/paul_thumb.JPG" alt="Paul">
+										<div>Born: March 20, 1969</div>
+									</div>
+									<br>
+									<img src="img/june/bernadette_paul.JPG" alt="bernadette Paul">
+						</div>
+							</a>
+							<ul>
+								<li><a href="#">Expecting!</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Elaine <span>De Mesa</span>
+								<div class="info">
+									<div>in relationship with Joseph Relunia</div>
+									<div>Elaine Born: Unknown</div>
+									<img src="img/june/boogie_elaine.JPG" alt="elaine">
+								</div>
+							</a>
+							<a href="#">Joseph <span>Relunia</span> and Mylene <span>Abraham</span>
+								<div class="info">
+									<div>Married: unknown</div>
+									<div>Separated</div>
+									<img src="img/june/boogie.JPG" alt="boogie">
+									<div>Born: May 8, 1978</div>
+								</div>
+							</a>
+							
+							<ul>
+								<li><a href="#">Mikayla
+										<div class="info">
+											<div>Born: February 10, 2002</div>
+											<img src="img/june/thumb/Mikayla_thumb.JPG" alt="">
+										</div>
+									</a>
+								</li>
+								<li><a href="#">Jerick
+										<div class="info">
+											<div>Born: November 2, 2003</div>
+											<img src="img/june/thumb/jerick_thumb.JPG" alt="">
+										</div>
+									</a>
+								</li>
+								<li><a href="#">Montana
+										<div class="info">
+											<div>Born: March 23, 2007</div>
+											<img src="img/june/thumb/montana_thumb.JPG" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Milagros <span>Relunia</span> and Rolando <span>Calacala</span>
+					<div class="info">
+						<div>Married: July 27, 1974</div>
+						<div class="image-container">
+							<img src="img/mila/thumb/mila_thumb.JPG" alt="mila">
+							<div>Born: September 6, 1949</div>
+							<div><br></div>
+						</div>
+						<div class="image-container">
+							<img src="img/mila/thumb/roly_thumb.JPG" alt="roly">
+							<div>Born: May 16, 1945</div>
+							<div>Died: September 27, 2013</div>
+						</div>
+						<br>
+						<img src="img/mila/mila_family.JPG" alt="mila family">
+					</div>
+					
+					</a>
+					<ul>
+						<li>
+							<a href="#">Marissa <span>Calacala</span> and Brendan <span>Donnelly</span>
+								<div class="info">
+									<div>Married: March 18, 2006</div>
+									<div class="image-container">
+							<img src="img/mila/marissa_brendan.JPG" alt="marissa and brendan">
+							<div>Marissa born: May 15, 1975</div>
+						</div>
+						<div class="image-container">
+							<img src="img/mila/marissa_family.JPG" alt="marissa and family">
+							<div>Brendan born: December 28, 1978</div>
+						</div>
+								</div>
+							</a>
+							<ul>
+								<li><a href="#">Logan
+										<div class="info">
+											<div>Born: January 18, 2007</div>
+											<img src="img/mila/thumb/logan_thumb.JPG" alt="">
+										</div>
+									</a>
+								</li>
+								<li><a href="#">Mariella
+										<div class="info">
+											<div>Born: October 14, 2009</div>
+											<img src="img/mila/thumb/mariella_thumb.JPG" alt="">
+										</div>
+									</a>
+								</li>
+								<li><a href="#">Ryan
+										<div class="info">
+											<div>Born: March 27, 2013</div>
+											<img src="img/mila/thumb/ryan_thumb.JPG" alt="">
+									</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Marlene <span>Calacala</span> and Ben <span>Pecotich</span>
+								<div class="info">
+									<div>Married: April 5, 2008</div>
+									<div class="image-container">
+							<img src="img/mila/marlene.JPG" alt="marlene and ben">
+							<div>Marlene born: December 3, 1976</div>
+						</div>
+						<div class="image-container">
+							<img src="img/mila/thumb/ben_thumb.JPG" alt="ben">
+							<div>Ben born: November 17, 1975</div>
+						</div>
+							<br>
+							<img src="img/mila/marlene_ben_2.JPG" alt="marlene and family">
+							<img src="img/mila/marlene_family.JPG" alt="marlene and family">
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Jasmine
+										<div class="info">
+											<div>Born: April 27, 2011</div>
+											<img src="img/mila/thumb/jasmine_thumb_2.JPG" alt="jasmin">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">Zara
+										<div class="info">
+											<div>Born: January 31, 2014</div>
+											<img src="img/mila/zara2.JPG" alt="zara">
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Raymond
+								<div class="info">
+									<div>Born: July 5, 1978</div>
+									<img src="img/mila/thumb/raymond_thumb.JPG" alt="">
+								</div>
+							</a>
+						</li>
+						<li><a href="#">Marianne
+								<div class="info">
+											<div>Born: September 17, 1987</div>
+											<img src="img/mila/thumb/marie-ann_thumb.JPG" alt="marianne">
+										</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Jaime <span>Relunia</span> and Sagrada <span>Buban</span>
+						<div class="info">
+							<div>Married: July 1,1972</div>
+							<div class="image-container">
+								<img  src="img/jaime/thumb/jaime_thumb.jpg" alt="jaime">
+								<div>Born: September 7,1951</div>
+							</div>
+							<div class="image-container">
+								<img src="img/jaime/sagrada.jpg" alt="sagrada">
+								<div>Born: January 12, 1952</div>
+							</div>
+							<br>
+							<img src="img/jaime/jaime_family.JPG" alt="jaime family">
+						</div>
+					</a>
+					<ul>
+						<li>
+							<a href="#">Jonathan
+								<div class="info">
+									<div>born: January 2,1974 </div>
+									<img src="img/jaime/thumb/jono1_thumb.jpg" alt="jono">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">Jerry
+								<div class="info">
+									<div>born: March 16, 1976</div>
+									<img src="img/jaime/thumb/jerry_thumb.JPG" alt="jerry">
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">Jason
+								<div class="info">
+									<div>born: July 14, 1979</div>
+									<img src="img/jaime/thumb/jason1_thumb.jpg" alt="jason">
+								</div>
+								
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">James <span>Relunia</span> and Christine <span>Chin</span>
+								<div class="info">
+									<div>Married: August 1, 2011</div>
+									<div class="image-container">
+										<img src="img/jaime/thumb/james_thumb.jpg" alt="James">
+										<div>Born: March 17, 1982</div>
+									</div>
+									<div class="image-container">
+										<img src="img/jaime/thumb/christine_thumb.jpg" alt="Christine">
+										<div>Born: October 19, 1981</div>
+									</div>
+									<div>
+										<img src="img/jaime/james_family.jpg" alt="james family">
+									</div>
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Timothy Jordan
+									<div class="info">
+										<div>Born:October 9, 2015</div>
+										<img src="img/jaime/thumb/timothy_jordan_thumb.jpg" alt="timothy jordan">
+									</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Sharon <span>Relunia</span> and Manish <span>Verma</span>
+								<div class="info">
+									<div>Married:June 1, 2013</div>
+									<div class="image-container">
+										<img src="img/jaime/sharon.jpg" alt="sharon">
+										<div>Sharon born: July 28, 1983</div>
+									</div>
+									<div class="image-container">
+										<img src="img/jaime/manish_thumb.jpg" alt="manish">
+										<div>Manish born: August 24,1983</div>
+									</div>
+									
+										<br>
+										<img src="img/jaime/sharon_family.jpg" alt="sharon family">
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Selena
+									<div class="info">
+										<div>Born: April 18, 2014</div>
+										<img src="img/jaime/thumb/selena_thumb.jpg" alt="selena">
+									</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">Expecting!</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a id="start" href="#">Jesus <span>Relunia</span> and Maria Claudette <span>Asuncion</span>
+						<div class="info">
+							<div>Married: June 4, 1972</div>
+							<div class="image-container">
+								<img src="img/jessie/jessie.JPG" alt="">
+								<div>Born September 21, 1953</div>
+							</div>
+								<div class="image-container">
+									<img src="img/jessie/maridette.JPG" alt="">
+									<div>Born: March 20,1954</div>
+								</div>
+							<br>
+							<img src="img/jessiefamily.jpg" alt="jessiefamily">
+							
+						</div>
+					</a>
+					<ul>
+						<li>
+							<a href="#">Jeffrey <span>Relunia</span> &amp; Julie <span>Sullivan</span>
+								<div class="info">
+									<div>Married: June 7, 2001</div>
+									<div>Separated</div>
+									<div class="image-container">
+										<img src="img/jessie/Jeff_kids.jpg" alt="">
+										<div>Jeffrey Born: December 30, 1977</div>
+										<div>Julie Born: December 6, 1978</div>
+									</div>
+								</div>
+							</a>
+							<ul>
+								<li><a href="#">Bethany
+									<div class="info">
+										<div class="image-container">
+											<img src="img/jessie/bethany.jpg" alt="bethany">
+											<div>born: July 1, 2005 </div>
+										</div>
+									</div>
+									</a>
+								</li>
+								<li><a href="#">Reece
+									<div class="info">
+										<div class="image-container">
+											<img src="img/jessie/reece.jpg" alt="reece">
+											<div>born:April 25,2007 </div>
+										</div></div>
+									
+									</a>
+								</li>
+							</ul>
+							
+						</li>
+						<li>
+							<a href="#">Dan <span>Haskin</span>
+								<div class="info">
+									<div>Jemarie and Dan married:</div>
+									<div>September 20,1999</div>
+									<div class="image-container">
+										<img src="img/jessie/jem_dan.jpg" alt="">
+										<div>Dan born: October 9, 1966</div>
+									</div>
+								</div>
+							</a>
+							<a href="#">Jemarie <span>Relunia</span>
+								<div class="info">
+									<div>married: September 20,1999</div>
+									<div class="image-container">
+										<img src="img/jessie/jem_dan.jpg" alt="">
+										<div>Jem born: March 26,1973</div>
+									</div>
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Mark <span>Relunia</span>&amp; Carolina <span>Mejia</span>
+										<div class="info">
+												<div class="image-container">
+													<img src="img/jessie/mark_carolina.jpg" alt="">
+													<div>Mark born: September 15, 1988 </div>
+													<div>Carolina born: July 6, 1990</div>
+												</div>
+											
+										</div>
+									</a>
+									<ul>
+										<li><a href="#">Faith
+											<div class="info">
+												<div>born: January 26,2008 </div>
+												<img src="img/jessie/faith.jpg" alt="">
+											</div>
+											</a>
+										</li>
+										<li><a href="#">Mark Jacob (MJ)
+												<div class="info">
+													<div>born: June 4,2011 </div>
+													<img src="img/jessie/mj.jpg" alt="">
+												</div>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">John Paul <span>Relunia</span> &amp; Erin <span>Mones</span>
+								<div class="info">
+									<div>Married: May 26, 2007</div>
+									<div class="image-container">
+										<img src="img/jessie/jp.JPG" alt="JP">
+										<div>Born: May 27, 1981</div>
+									</div>
+										<div class="image-container">
+											<img src="img/jessie/erin.JPG" alt="Erin">
+											<div>Born: July 20,1981</div>
+										</div>
+									<br>
+									<img src="img/jessie/jp_family.JPG" alt="JP's family">
+
+								</div>
+							</a>
+							<ul>
+								<li><a href="#">Jordyn
+										<div class="info">
+											<div>born: August 30,2012 </div>
+											<img src="img/jessie/jordyn.jpg" alt="Jordyn">
+										</div>
+									</a>
+								</li>
+								<li><a href="#">Rylee
+										<div class="info">
+											<div>born: July 23,2010</div>
+											<img src="img/jessie/rylee.jpg" alt="Rylee">
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Juan <span>Relunia</span> and Nimfa <span>Relunia</span>
+						<div class="info">
+							<div class=>married: January 2, 1978</div>
+							<div class="image-container">
+								<img src="img/johnny/johnny.JPG" alt="johnny">
+								<div>Born: January 3, 1955</div>
+								<br>
+							</div>
+							<div class="image-container">
+								<img src="img/johnny/nimfa_thumb.JPG" alt="nimfa">
+								<div>Born: December 9, 1952</div>
+								<div>Died: May 15, 2013</div>
+							</div>
+							<br>
+							<img src="img/johnny/johnny_family.JPG" alt="johnny family">
+						</div>
+					</a>	
+					<ul>
+						<li>
+							<a href="#">Niña <span>Relunia</span> &amp; Hinesh <span>Gadhia</span>
+							<div class="info">
+								<div>Married: September 5, 2015</div>
+								<div class="image-container">
+									<img src="img/johnny/nina.JPG" alt="nina">
+									<div>Born: February 8, 1979</div>
+								</div>
+								<div class="image-container">
+									<img src="img/johnny/hinesh_thumb.JPG" alt="nina">
+									<div>Born:April 2, 1982</div>
+								</div>
+								<br>
+								<img src="img/johnny/nina_family.JPG" alt="nina family">
+							</div>
+							</a>
+							<ul>
+								<li><a href="#">Niam
+									<div class="info">
+										<div>Born: January 28, 2015</div>
+										<img src="img/johnny/niam_thumb.JPG" alt="niam">
+									</div>
+									</a>
+								</li>
+							</ul>
+
+						</li>
+						<li>
+							<a href="#">Nanette <span>Relunia</span> &amp; Joe* <span>Tareha</span>
+								<div class="info">
+									<div>Married: Jan 28, 2011</div>
+									<div class="image-container">
+										<img src="img/johnny/nanette.JPG" alt="nanette">
+										<div>Born: December 20,1980</div>
+									</div>
+									<div class="image-container">
+										<img src="img/johnny/joe_thumb.PNG" alt="png">
+										<div>November 29, 1978</div>
+									</div>
+									<br>
+									<div>*note: Joe is stepfather to Nalani</div>
+									<img src="img/johnny/nanette_family_thumb.JPG" alt="">
+									
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Nalani
+												<div class="info">
+													<div>Born: October 6, 2001</div>
+													<img src="img/johnny/nalani_thumb.JPG" alt="Nalani">
+												</div>
+											</a>
+								</li>
+								<li><a href="#">Awhi
+										<div class="info">
+											<div>Born: May 6, 2011</div>
+											<img src="img/johnny/awhi_thumb.JPG" alt="awhi">
+										</div>
+									</a>
+								</li>
+							</ul>
+
+						</li>
+					</ul>
+
+				</li>
+				<li>
+					<a href="#">Jorge <span>Relunia</span> &amp; Miguela <span>Maglalang</span>
+						<div class="info">
+							<div>Married: July 18, 1977</div>
+							<div class="image-container">
+								<img src="img/Jorge.jpg" alt="">
+								<div>Born :May 7,1956</div>
+							</div>
+								<div class="image-container">
+									<img src="img/Ela.jpg" alt="">
+									<div>Born: May 8, 1960</div>
+								</div>
+							<br>
+							<img src="img/jorgefamily.jpg" alt="jorgefamily">
+							
+						</div>
+					</a>
+					<ul>
+						<li>
+							<a href="#">Joel <span>Relunia</span> &amp; Dhorie <span>Mailom</span>
+								<div class="info">
+									<div>Married: May 11, 1998</div>
+									<div class="image-container">
+										<img src="img/Joel.jpg" alt="">
+										<div>born: May 13,1978</div>
+									</div>
+									<div class="image-container">
+										<img src="img/Dhorie.jpg" alt="">
+										<div>born: May 13,1974</div>
+									</div>
+
+								</div>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Joel Jr
+										<div class="info">
+											<div>born: February 2,1999</div>
+											<img src="img/Joel_Jr.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">Jessica
+										<div class="info">
+											<div>born:November 8,2000</div>
+											<img src="img/Jessica.jpg" alt="Jorge">
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">Jordan
+										<div class="info">
+											<div>date of birth:October 9,2004</div>
+											<img src="img/Jordan.jpg" alt="Jordan">
+										</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Michelle <span>Relunia</span> &amp; Romel <span>Tejada</span>
+								<div class="info">
+									<div>married: November 17,2012</div>
+									<div class="image-container">
+										<img src="img/Michelle.jpg" alt="">
+										<div>born: September 17,1983</div>
+									</div>
+									<div class="image-container">
+										<img src="img/Romel.jpg" alt="">
+										<div>born: April 25,1981</div>
+									</div>
+								</div>
+							</a>
+							<ul>
+								<li><a href="#">Expecting!</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Joshua
+								<div class="info">
+									<img src="img/Joshua.jpg" alt="">
+									<div>date of birth:September 19, 1998</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Jose III <span>Relunia</span> &amp; Dulce <span>Adriano</span>
+					<div class="info">
+						<div>Married: May 5, 1984 </div>
+						<div>Separated</div>
+						<div class="image-container">
+							<img src="img/pepito/pepito_thumb.jpg" alt="Pepito">
+							<div>Born: August 3, 1958</div>
+						</div>
+						<div class="image-container">
+							<img src="img/pepito/dulce_thumb.jpg" alt="Dulce">
+							<div>Born: November 27, 1955</div>
+						</div>
+					</div>
+					</a>
+					<ul>
+						<li><a href="#">Jennifer
+								<div class="info">
+									<div>born: July 16, 1985 </div>
+									<img src="img/pepito/jen_thumb.jpg" alt="jennifer">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Merle <span>Relunia</span> and Marvin <span>Drapeza</span>
+						<div class="info">
+							<div>Married: May 4, 1985</div>
+							<div class="image-container">
+								<img src="img/merle/merle.jpg" alt="Merle">
+								<div>Born: Nov 6, 1960 </div>
+							</div>
+								<div class="image-container">
+									<img src="img/merle/marvin.jpg" alt="">
+									<div>Born: Dec 21, 1959</div>
+								</div>
+							<br>
+							<img src="img/merle/merlefamily.jpg" alt="jessiefamily">
+						</div>
+					</a>
+					<ul>
+						<li><a href="#">Maybell
+								<div class="info">
+									<div>born: September 4, 1985</div>
+										<img src="img/merle/Maybell.jpg">
+								</div>
+							</a>
+						</li>
+						<li><a href="#">Marivie
+								<div class="info">
+									<div>born: October 23,1986</div>
+										<img src="img/merle/Marivee.jpg">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Jack <span>Relunia</span> &amp; Bernadette <span>Gueco</span>
+						<div class="info">
+							<div>Married: January 15, 2006</div>
+							<div>Divorced: September 8, 2014</div>
+							<div class="image-container">
+								<img src="img/jack/jack_thumb.jpg" alt="jack">
+								<div>Born: September 23, 1971</div>
+								<img src="img/jack/jack_family_thumb.jpg" alt="jackfamily">
+								<div>Born: January 15, 1977</div>
+							</div>
+							
+							
+						</div>
+					</a>
+					<ul>
+						<li><a href="#">Krysler
+							<div class="info">
+								<div>Born:October 22, 2006</div>
+								<img src="img/jack/Krysler_thumb.jpg" alt="Krysler">
+							</div>
+							</a>
+						</li>
+						<li><a href="#">Phoenix
+							<div class="info">
+								<div>Born: May 14, 2008</div>
+								<img src="img/jack/phoenix_thumb.jpg" alt="Phoenix">
+							</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Julius <span>Relunia</span> and Rowena <span>Lorenzo</span>
+						<div class="info">
+							<div>date married: April 20,1995</div>
+								<div class="image-container">
+									<img src="img/julius/Julius_Rowena.jpg" alt="Julius and Rowena">
+									<div>Julius Born:July 21,1964</div>
+									<div>Rowena Born:April 10, 1964</div>
+									<img src="img/julius/Juliusfam.jpg">
+								</div>	
+						</div>
+					</a>
+					<ul>
+						<li><a href="#">Justine <span>Relunia</span> and Kenneth <span>Chow</span>
+							<div class="info">
+								<div>date married: December 1, 2012</div>
+									<div class="image-container">
+										<img src="img/julius/Justine.jpg" alt="Justine">
+										<div>Born: June 26,1985</div>
+									</div>
+									<div class="image-container">
+										<img src="img/julius/Justine_Kenneth.jpg" alt="Ken">
+										<div>Born: October 8,1985</div>
+									</div>
+									
+							</div>
+							
+							</a>
+						</li>
+					</ul>
+				</li>
+				
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<!--http://www.materialpalette.com/blue-grey/light-blue-->
+ <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+ <script src="velocity.min.js"></script>
+ <script src="velocity.ui.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

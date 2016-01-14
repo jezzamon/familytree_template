@@ -1,0 +1,140 @@
+*
+  margin 0
+  padding 0
+
+.minwidth
+  min-width 4700px
+  width auto !important
+  width 4700px
+
+
+li
+  display block
+  a
+  	.info
+        color #FFCCBC
+        display none
+
+a
+	span
+		display:none
+
+.tree
+  ul
+    padding-top 20px
+    position relative
+    transition all 0.5s
+    -webkit-transition all 0.5s
+    -moz-transition all 0.5s
+    ul
+      &::before
+        content ''
+        position absolute
+        top 0
+        left 50%
+        border-left 1px solid black
+        width 0
+        height 20px
+        z-index -10
+  li
+    float left
+    text-align center
+    list-style-type none
+    position relative
+    padding 20px 5px 0 5px
+    transition all 0.5s
+    -webkit-transition all 0.5s
+    -moz-transition all 0.5s
+    &::after
+      right auto
+      left 50%
+      border-left 1px solid black
+      z-index -10
+    &:only-child
+      padding-top 0
+    &:last-child
+      &::before
+        border-right 1px solid black
+        border-radius 0 5px 0 0
+        -webkit-border-radius 0 5px 0 0
+        -moz-border-radius 0 5px 0 0
+    &:first-child
+      &::after
+        border-radius 5px 0 0 0
+        -webkit-border-radius 5px 0 0 0
+        -moz-border-radius 5px 0 0 0
+    a
+      border 1px solid black
+      padding 5px 10px
+      text-decoration none
+      color black
+      font-family raleway, verdana, tahoma
+      font-size 18px
+      font-weight bold
+      display inline-block
+      border-radius 5px
+      -webkit-border-radius 5px
+      -moz-border-radius 5px
+      transition all 0.5s
+      -webkit-transition all 0.5s
+      -moz-transition all 0.5s
+      & + a
+        margin-left 20px
+        position relative
+        &::before
+          content ''
+          position absolute
+          border-top 1px solid black
+          top 50%
+          left -25px
+          width 25px
+          z-index -10
+		  
+img
+  max-width 100%
+  height auto
+
+.tree li::before,
+.tree li::after
+  content ''
+  position absolute
+  top 0
+  right 50%
+  border-top 1px solid black
+  width 50%
+  height 20px
+  z-index -10
+
+.tree li:only-child::after,
+.tree li:only-child::before
+  display none
+
+.tree li:first-child::before,
+.tree li:last-child::after
+  border 0 none
+
+.info
+  img
+    height 250px
+
+#overconnecter
+  z-index 10
+
+.tree li a:hover,
+.tree li a:hover+ul li a,
+.tree li a:hover+a
+  background #bf3f00
+  color #fff
+  border 2px solid #E64A19
+  -webkit-transform scale(1.1)
+  transform scale(1.1)
+
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before
+  border-color #eb6b00
+
+.image-container
+  display inline-block
+
