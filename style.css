@@ -8,7 +8,7 @@
   width: 4700px;
 }
 li {
-  display: block;
+  display: none;
 }
 li a .info {
   color: #ffccbc;

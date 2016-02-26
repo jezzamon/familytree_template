@@ -28,8 +28,8 @@ stylus(code)
 
 //thumb
 thumb({
-  source: './img/mila',
-  destination: './img/mila/thumb',
+  source: './img',
+  destination: './img/thumb',
   concurrency: 4,
   width: 250,
 }, function(err) {
